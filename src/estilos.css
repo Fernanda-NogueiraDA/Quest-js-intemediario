@@ -1,0 +1,115 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background: url('./img/bg-repeat.jpg') repeat;
+    background-size: contain;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.informativo {
+    color: rgba(255, 255, 255, 1);
+    width: 300px;
+}
+
+.titulo {
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 11px;
+}
+
+.descricao {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.formulario-container {
+    background: rgba(255, 255, 255, 1);
+    width: 340px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex: 1;
+}
+
+.campo {
+    margin-bottom: 6px;
+}
+
+.input {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+
+.input:focus {
+    outline: none;
+    border-color: #000000;
+}
+
+.input.valido, .textarea.valido {
+    border-color: rgba(0, 194, 43, 1) !important;
+}
+
+.input.invalido, .textarea.invalido {
+    border-color:rgba(245, 46, 46, 1) !important;
+}
+
+.textarea {
+    height: 100px;
+    resize: none;
+}
+
+.mensagem-erro {
+    color: rgba(245, 46, 46, 1);
+    font-size: 8px;
+    display: block;
+    min-height: 12px;
+    font-weight: 400;
+    margin-top: 2px;
+}
+
+.obrigatorio {
+    font-size: 15px;
+    font-weight: 400;
+    color: #000000;
+    margin: 5px 0;
+}
+
+.botao-enviar {
+    background-color: rgba(60, 204, 135, 1);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.botao-enviar:hover {
+    opacity: 0.9;
+}
