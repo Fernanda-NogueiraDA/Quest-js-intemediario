@@ -31,10 +31,6 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
         
-        // REMOVIDO: evento blur
-        // campo.addEventListener('blur', function() {
-        //     validarCampo(this);
-        // });
     });
 
     formulario.addEventListener('submit', function(e) {
